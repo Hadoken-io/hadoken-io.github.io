@@ -172,7 +172,7 @@
       pdf.line(20, 55, 190, 55); // Line to separate sections
 
       // Add Course Title and Course Code in the center
-      pdf.setFontSize(24);
+      pdf.setFontSize(32);
       pdf.setTextColor(0, 0, 0); // Black color for body text
       pdf.text(`Course Title: ${courseTitle}`, 105, 70, null, null, "center");
       pdf.text(`Course Code: ${courseCode}`, 105, 80, null, null, "center");
@@ -186,7 +186,7 @@
       pdf.addImage(logoBase64, "PNG", xPosition, ylPosition, logoWidth, logoHeight); // Add centered logo
 
       // Submitted To Section with a stylish font
-      pdf.setFontSize(20);
+      pdf.setFontSize(29);
       pdf.setFont("times", "italic");
       pdf.setTextColor(0, 51, 102); // Deep blue for Submitted To
       pdf.text("Submitted To:", 105, 195, null, null, "center");
