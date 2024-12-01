@@ -186,7 +186,7 @@
       pdf.addImage(logoBase64, "PNG", xPosition, ylPosition, logoWidth, logoHeight); // Add centered logo
 
       // Submitted To Section with a stylish font
-      pdf.setFontSize(12);
+      pdf.setFontSize(10);
       pdf.setFont("times", "italic");
       pdf.setTextColor(0, 51, 102); // Deep blue for Submitted To
       pdf.text("Submitted To:", 105, 170, null, null, "center");
@@ -195,7 +195,7 @@
       let yPosition = 180;
       submittedToLines.forEach(line => {
         pdf.text(line, 105, yPosition, null, null, "center");
-        yPosition += 8;
+        yPosition += 6;
       });
 
       // Submitted By Section
@@ -222,4 +222,4 @@
   </script>
 
 </body>
-</
+
