@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Aniket Lodh — ML/Data Engineer &amp; Software Developer</title>
+<meta name="description" content="Portfolio of Aniket Lodh — ML/data engineering projects, software development work, and narrative horror games built under the studio name DANTE." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><span class="dot"></span>ANIKET LODH</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="kicker"><span>ML / DATA ENGINEER · SOFTWARE DEVELOPER</span></div>
+    <h1 class="display">ANIKET<br><span class="stroke">LODH</span></h1>
+    <p class="tagline">I build predictive ML systems and interactive software — from a grass-court tennis model validated at 73.3% accuracy to a movie app live on Vercel. B.Tech CSE student, also shipping narrative games under the studio name DANTE.</p>
+    <div class="hero-cta">
+      <a class="btn" href="#work">See my ML work</a>
+      <a class="btn ghost" href="#contact">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-head reveal"><span class="num">01</span><h2 class="display">ABOUT ME</h2><div class="rule"></div></div>
+  <div class="about-wrap">
+    <div class="reveal">
+      <p>I'm a final-year B.Tech Computer Science student at Techno College of Engineering Agartala, most interested in the space where data, machine learning, and real software meet. I like taking a model past the notebook stage — into an API, a working UI, something people can actually hit with real inputs.</p>
+      <p>That's shown up in a grass-specific ELO + XGBoost tennis predictor with a FastAPI backend, and in Android and web apps built with small teams under real sprint deadlines. Outside of that, I write and build small narrative horror games solo, under the studio name DANTE — a creative outlet that keeps my systems thinking sharp.</p>
+    </div>
+    <div class="info-card reveal d1">
+      <h4>EDUCATION</h4>
+      <ul><li><b>B.Tech CSE</b> — Techno College of Engineering Agartala (2022–2026), CGPA 7.17/10.0</li></ul>
+      <h4>INTERNSHIPS</h4>
+      <ul>
+        <li><b>NIELIT Agartala</b> — Android Development Trainee, 06/2025–07/2025</li>
+        <li><b>DND Learning</b> — Web Development &amp; AI Intern, 06/2026–07/2026</li>
+      </ul>
+      <h4>CERTIFICATIONS</h4>
+      <ul><li>NIELIT Completion · DND Certificate · LinkedIn Speaking Certificate</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="section-head reveal"><span class="num">02</span><h2 class="display">SELECTED WORK</h2><div class="rule"></div></div>
+
+  <div class="featured reveal">
+    <div class="fx-body">
+      <h3>Wimbledon ML Match Predictor</h3>
+      <p>A grass-specific ELO system with 270-day decay, paired with a general/elite XGBoost split and a 10,000-run Monte Carlo simulation. Served through a FastAPI/uvicorn backend with HTML frontends.</p>
+      <div class="stack"><span>XGBoost</span><span>Monte Carlo</span><span>FastAPI</span><span>pandas</span></div>
+    </div>
+    <div class="fx-stats">
+      <div class="big-stat"><span class="n">73.3%</span><span class="l">validated accuracy, 2025 R16–Final matchups</span></div>
+      <div class="big-stat"><span class="n">10,000</span><span class="l">Monte Carlo simulation runs</span></div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card reveal" data-tag="WEB · JS">
+      <h3>CineGlide</h3>
+      <p>A responsive movie discovery web app deployed to Vercel, integrating the TMDB API with a recommendation library for personalised suggestions from live save history.</p>
+      <div class="stack"><span>TMDB API</span><span>Vanilla JS</span><span>Vercel</span></div>
+    </div>
+    <div class="card reveal d1" data-tag="ANDROID · GPS">
+      <h3>Location Tracer</h3>
+      <p>A NIELIT group project: an Android app sending live location via SMS in low/no-internet conditions, accurate to ~12m, with saved favourites for fast sending.</p>
+      <div class="stack"><span>Java</span><span>Android SDK</span><span>Maps API</span></div>
+    </div>
+    <div class="card reveal d2" data-tag="HORROR · GODOT 4.4">
+      <h3>The Tenant Below</h3>
+      <p>A single-apartment stalker horror game — the walls feel closer every night someone else moves in above you.</p>
+      <div class="stack"><span>PSX shaders</span><span>Godot 4.4</span></div>
+    </div>
+  </div>
+
+  <h4 class="subhead reveal">Also building (as DANTE)</h4>
+  <div class="grid">
+    <div class="card reveal" data-tag="DUAL-POV">
+      <h3>Small Hands</h3>
+      <p>Eight-year-old Dessa lives through one week of parental neglect — no jump scares, just the slow arithmetic of a bad home.</p>
+      <div class="stack"><span>Narrative systems</span></div>
+    </div>
+    <div class="card reveal d1" data-tag="FPS HORROR">
+      <h3>Checkpoint</h3>
+      <p>A Papers, Please-style border checkpoint across five escalating nights — every stamp is a choice you can't take back.</p>
+      <div class="stack"><span>Systems design</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="section-head reveal"><span class="num">03</span><h2 class="display">SKILL STATUS</h2><div class="rule"></div></div>
+  <div class="stat-panel reveal">
+    <div class="stat-row"><span class="label">Python / ML</span><div class="bar"><i style="--w:90%"></i></div><span class="pct">90</span></div>
+    <div class="stat-row"><span class="label">ML Tooling</span><div class="bar"><i style="--w:85%"></i></div><span class="pct">85</span></div>
+    <div class="stat-row"><span class="label">Java / C / C++</span><div class="bar"><i style="--w:78%"></i></div><span class="pct">78</span></div>
+    <div class="stat-row"><span class="label">Web / JS</span><div class="bar"><i style="--w:72%"></i></div><span class="pct">72</span></div>
+    <div class="stat-row"><span class="label">Databases</span><div class="bar"><i style="--w:65%"></i></div><span class="pct">65</span></div>
+    <div class="toolbelt">
+      <span>XGBoost</span><span>pandas</span><span>NumPy</span><span>scikit-learn</span><span>FastAPI</span>
+      <span>Docker</span><span>Tableau</span><span>Git</span><span>Android Studio</span><span>MySQL</span><span>PostgreSQL</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2 class="display reveal">LET'S TALK</h2>
+  <p class="reveal">Open to ML / data engineering roles, freelance work, or just talking about model architecture and game design.</p>
+  <div class="links reveal">
+    <a class="btn" href="mailto:aniketlodh0707@gmail.com">Email me</a>
+    <a class="btn ghost" href="https://github.com/Hadoken-io" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn ghost" href="https://linkedin.com/in/aniket-lodh-968177290/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+</section>
+
+<footer>Built by <span>Aniket Lodh</span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
